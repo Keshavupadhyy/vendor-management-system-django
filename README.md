@@ -12,33 +12,33 @@ metrics
 ## Installation
 
 # 1. Clone the repository:
-   bash:
-   git clone https://github.com/imswaggyboy/vendor-management-system-django.git
-   cd project-directory (vendor-management-system-django
+   bash:  
+   git clone https://github.com/imswaggyboy/vendor-management-system-django.git  
+   cd project-directory (vendor-management-system-django  
 
 # 2.Create a virtual environment:
-python -m venv venv
-source venv/bin/activate  # For Linux/Mac
-venv\Scripts\activate     # For Windows
+python -m venv venv  
+source venv/bin/activate  # For Linux/Mac  
+venv\Scripts\activate     # For Windows  
 
 # 3.Install dependencies:
-pip install -r requirements.txt
+pip install -r requirements.txt  
 
 # 4.Database setup:
-python manage.py makemigrations
-python manage.py migrate
+python manage.py makemigrations  
+python manage.py migrate  
 
 ## Usage
 # 1.Start the server:
-python manage.py runserver
+python manage.py runserver  
 
 # 2.Access API endpoints:
 
 ## Vendor API: /vendor/
-Purchase Order API: /purchase-order/
-Historical Performance API: /vendor/historical_performance/
+Purchase Order API: /purchase-order/  
+Historical Performance API: /vendor/historical_performance/  
 
-# After creating user to access token
+# After creating user to access token  
 '/gettoken/' #provide username and password in json eg. { "username":"superuser","password":"superuser" }  
 I used Postman to test API  
 once Token is created or received provide it to HEADER  
