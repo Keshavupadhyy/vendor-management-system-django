@@ -36,7 +36,7 @@ python manage.py runserver
 
 ## Vendor API: /vendor/
 Purchase Order API: /purchase-order/  
-Historical Performance API: /vendor/historical_performance/  
+Historical Performance API: /vendor/historical_performance  
 
 # After creating user to access token  
 '/gettoken/' #provide username and password in json eg. { "username":"superuser","password":"superuser" }  
@@ -66,7 +66,7 @@ Vendor Performance Evaluation
 ● GET /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance metrics  
 
 Historical Performance API  
-GET /vendor/historical_performance/: List historical performance for all vendors.  
+GET /vendor/historical_performance: List historical performance for all vendors.  
 GET /vendor/historical_performance/{id}/: Retrieve historical performance for a specific vendor.  
   
 Update Acknowledgment Endpoint:  
